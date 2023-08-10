@@ -46,5 +46,17 @@ namespace ChuyenDoiSo1
             ThongKe tk = new ThongKe();
             tk.ShowDialog();
         }
+
+        private void camKếtBVMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BanCamKet bck = new BanCamKet();
+            bck.ShowDialog();
+        }
+
+        private void bảnĐăngKýĐạtTCMTToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Ban_dang_ki a = new Ban_dang_ki();
+            a.ShowDialog();
+        }
     }
 }
