@@ -34,5 +34,17 @@ namespace ChuyenDoiSo1
         {
             this.Close();
         }
+
+        private void bảnĐăngKýĐạtTCMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ban_dang_ki a = new Ban_dang_ki();
+            a.ShowDialog();
+        }
+
+        private void thốngKêToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ThongKe tk = new ThongKe();
+            tk.ShowDialog();
+        }
     }
 }
