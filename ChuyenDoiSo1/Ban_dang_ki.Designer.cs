@@ -44,7 +44,6 @@
             label8 = new Label();
             label9 = new Label();
             TB3 = new TextBox();
-            TBProject = new TextBox();
             textBox1 = new TextBox();
             label10 = new Label();
             label11 = new Label();
@@ -239,16 +238,6 @@
             TB3.Name = "TB3";
             TB3.Size = new Size(31, 25);
             TB3.TabIndex = 15;
-            // 
-            // TBProject
-            // 
-            TBProject.Location = new Point(248, 132);
-            TBProject.Multiline = true;
-            TBProject.Name = "TBProject";
-            TBProject.Size = new Size(225, 45);
-            TBProject.TabIndex = 16;
-            TBProject.Text = "Bản Đăng Kí Của Công Ty Xăng Dầu Giàu Nhất Việt Nam";
-            TBProject.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox1
             // 
@@ -581,7 +570,6 @@
             groupBox1.Controls.Add(label11);
             groupBox1.Controls.Add(label10);
             groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(TBProject);
             groupBox1.Controls.Add(TB3);
             groupBox1.Controls.Add(label9);
             groupBox1.Controls.Add(label8);
@@ -610,7 +598,7 @@
             // label45
             // 
             label45.AutoSize = true;
-            label45.Location = new Point(592, 864);
+            label45.Location = new Point(599, 962);
             label45.Name = "label45";
             label45.Size = new Size(135, 17);
             label45.TabIndex = 72;
@@ -618,14 +606,14 @@
             // 
             // textBox17
             // 
-            textBox17.Location = new Point(792, 833);
+            textBox17.Location = new Point(799, 931);
             textBox17.Name = "textBox17";
             textBox17.Size = new Size(38, 25);
             textBox17.TabIndex = 71;
             // 
             // textBox18
             // 
-            textBox18.Location = new Point(720, 833);
+            textBox18.Location = new Point(727, 931);
             textBox18.Name = "textBox18";
             textBox18.Size = new Size(27, 25);
             textBox18.TabIndex = 70;
@@ -633,7 +621,7 @@
             // label41
             // 
             label41.AutoSize = true;
-            label41.Location = new Point(752, 839);
+            label41.Location = new Point(759, 937);
             label41.Name = "label41";
             label41.Size = new Size(37, 17);
             label41.TabIndex = 69;
@@ -642,7 +630,7 @@
             // label42
             // 
             label42.AutoSize = true;
-            label42.Location = new Point(677, 839);
+            label42.Location = new Point(684, 937);
             label42.Name = "label42";
             label42.Size = new Size(45, 17);
             label42.TabIndex = 68;
@@ -650,7 +638,7 @@
             // 
             // textBox19
             // 
-            textBox19.Location = new Point(641, 833);
+            textBox19.Location = new Point(648, 931);
             textBox19.Name = "textBox19";
             textBox19.Size = new Size(31, 25);
             textBox19.TabIndex = 67;
@@ -658,7 +646,7 @@
             // label43
             // 
             label43.AutoSize = true;
-            label43.Location = new Point(592, 839);
+            label43.Location = new Point(599, 937);
             label43.Name = "label43";
             label43.Size = new Size(47, 17);
             label43.TabIndex = 66;
@@ -666,7 +654,7 @@
             // 
             // textBox20
             // 
-            textBox20.Location = new Point(469, 833);
+            textBox20.Location = new Point(476, 931);
             textBox20.Name = "textBox20";
             textBox20.Size = new Size(117, 25);
             textBox20.TabIndex = 65;
@@ -674,7 +662,7 @@
             // label44
             // 
             label44.AutoSize = true;
-            label44.Location = new Point(544, 836);
+            label44.Location = new Point(551, 934);
             label44.Name = "label44";
             label44.Size = new Size(0, 17);
             label44.TabIndex = 64;
@@ -831,7 +819,6 @@
         private Label label8;
         private Label label9;
         private TextBox TB3;
-        private TextBox TBProject;
         private TextBox textBox1;
         private Label label10;
         private Label label11;

@@ -49,6 +49,8 @@ namespace ChuyenDoiSo1
 
         private void nhậpDữLiệuToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+           HSTra_BKHBVMT hst = new HSTra_BKHBVMT();
+            hst.ShowDialog();
             HSTra_DABVMT hstda = new HSTra_DABVMT();
             hstda.ShowDialog();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ChuyenDoiSo1
 {
-    public partial class Form2 : Form
+    public partial class HSTra_BKHBVMT : Form
     {
-        public Form2()
+        public HSTra_BKHBVMT()
         {
             InitializeComponent();
         }
