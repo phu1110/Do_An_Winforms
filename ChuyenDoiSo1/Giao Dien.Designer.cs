@@ -136,14 +136,14 @@
             // 
             biênNhậnToolStripMenuItem.Image = Properties.Resources.receipt;
             biênNhậnToolStripMenuItem.Name = "biênNhậnToolStripMenuItem";
-            biênNhậnToolStripMenuItem.Size = new Size(180, 22);
+            biênNhậnToolStripMenuItem.Size = new Size(135, 22);
             biênNhậnToolStripMenuItem.Text = "Biên nhận";
             // 
             // thốngKêToolStripMenuItem1
             // 
             thốngKêToolStripMenuItem1.Image = Properties.Resources.chart;
             thốngKêToolStripMenuItem1.Name = "thốngKêToolStripMenuItem1";
-            thốngKêToolStripMenuItem1.Size = new Size(180, 22);
+            thốngKêToolStripMenuItem1.Size = new Size(135, 22);
             thốngKêToolStripMenuItem1.Text = "Thống kê";
             thốngKêToolStripMenuItem1.Click += thốngKêToolStripMenuItem1_Click;
             // 
@@ -209,8 +209,10 @@
             kếHoạchBVMTToolStripMenuItem1.Text = "Kế hoạch BVMT";
             // 
             // đềÁnBVMTToolStripMenuItem1
-            // 
+
             đềÁnBVMTToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { nhậpDữLiệuToolStripMenuItem2 });
+            đềÁnBVMTToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { nhậpDữLiệuToolStripMenuItem1 });
+
             đềÁnBVMTToolStripMenuItem1.Name = "đềÁnBVMTToolStripMenuItem1";
             đềÁnBVMTToolStripMenuItem1.Size = new Size(180, 22);
             đềÁnBVMTToolStripMenuItem1.Text = "Đề án BVMT";
@@ -369,8 +371,7 @@
             nhậpDữLiệuToolStripMenuItem1.Text = "Nhập dữ liệu";
             nhậpDữLiệuToolStripMenuItem1.Click += nhậpDữLiệuToolStripMenuItem1_Click;
             // 
-            // nhậpDữLiệuToolStripMenuItem2
-            // 
+
             nhậpDữLiệuToolStripMenuItem2.Name = "nhậpDữLiệuToolStripMenuItem2";
             nhậpDữLiệuToolStripMenuItem2.Size = new Size(180, 22);
             nhậpDữLiệuToolStripMenuItem2.Text = "Nhập dữ liệu";
@@ -437,6 +438,6 @@
         private ToolStripMenuItem đổiMậtKhẩuToolStripMenuItem;
         private ToolStripMenuItem đổiGiaoDiệnToolStripMenuItem;
         private ToolStripMenuItem nhậpDữLiệuToolStripMenuItem1;
-        private ToolStripMenuItem nhậpDữLiệuToolStripMenuItem2;
+
     }
 }

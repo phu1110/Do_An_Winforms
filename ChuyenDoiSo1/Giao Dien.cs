@@ -51,6 +51,8 @@ namespace ChuyenDoiSo1
         {
            HSTra_BKHBVMT hst = new HSTra_BKHBVMT();
             hst.ShowDialog();
+            HSTra_DABVMT hstda = new HSTra_DABVMT();
+            hstda.ShowDialog();
         }
     }
 }
