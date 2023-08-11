@@ -46,5 +46,11 @@ namespace ChuyenDoiSo1
             ThongKe tk = new ThongKe();
             tk.ShowDialog();
         }
+
+        private void nhậpDữLiệuToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            HSTra_DABVMT hstda = new HSTra_DABVMT();
+            hstda.ShowDialog();
+        }
     }
 }

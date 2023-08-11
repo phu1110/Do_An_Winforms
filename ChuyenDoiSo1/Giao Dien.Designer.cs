@@ -70,6 +70,7 @@
             hướngDẫnSửDụngToolStripMenuItem = new ToolStripMenuItem();
             đổiMậtKhẩuToolStripMenuItem = new ToolStripMenuItem();
             đổiGiaoDiệnToolStripMenuItem = new ToolStripMenuItem();
+            nhậpDữLiệuToolStripMenuItem1 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -134,14 +135,14 @@
             // 
             biênNhậnToolStripMenuItem.Image = Properties.Resources.receipt;
             biênNhậnToolStripMenuItem.Name = "biênNhậnToolStripMenuItem";
-            biênNhậnToolStripMenuItem.Size = new Size(180, 22);
+            biênNhậnToolStripMenuItem.Size = new Size(135, 22);
             biênNhậnToolStripMenuItem.Text = "Biên nhận";
             // 
             // thốngKêToolStripMenuItem1
             // 
             thốngKêToolStripMenuItem1.Image = Properties.Resources.chart;
             thốngKêToolStripMenuItem1.Name = "thốngKêToolStripMenuItem1";
-            thốngKêToolStripMenuItem1.Size = new Size(180, 22);
+            thốngKêToolStripMenuItem1.Size = new Size(135, 22);
             thốngKêToolStripMenuItem1.Text = "Thống kê";
             thốngKêToolStripMenuItem1.Click += thốngKêToolStripMenuItem1_Click;
             // 
@@ -207,6 +208,7 @@
             // 
             // đềÁnBVMTToolStripMenuItem1
             // 
+            đềÁnBVMTToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { nhậpDữLiệuToolStripMenuItem1 });
             đềÁnBVMTToolStripMenuItem1.Name = "đềÁnBVMTToolStripMenuItem1";
             đềÁnBVMTToolStripMenuItem1.Size = new Size(180, 22);
             đềÁnBVMTToolStripMenuItem1.Text = "Đề án BVMT";
@@ -358,6 +360,13 @@
             đổiGiaoDiệnToolStripMenuItem.Size = new Size(192, 22);
             đổiGiaoDiệnToolStripMenuItem.Text = "Đổi giao diện";
             // 
+            // nhậpDữLiệuToolStripMenuItem1
+            // 
+            nhậpDữLiệuToolStripMenuItem1.Name = "nhậpDữLiệuToolStripMenuItem1";
+            nhậpDữLiệuToolStripMenuItem1.Size = new Size(180, 22);
+            nhậpDữLiệuToolStripMenuItem1.Text = "Nhập dữ liệu";
+            nhậpDữLiệuToolStripMenuItem1.Click += nhậpDữLiệuToolStripMenuItem1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 17F);
@@ -419,5 +428,6 @@
         private ToolStripMenuItem hướngDẫnSửDụngToolStripMenuItem;
         private ToolStripMenuItem đổiMậtKhẩuToolStripMenuItem;
         private ToolStripMenuItem đổiGiaoDiệnToolStripMenuItem;
+        private ToolStripMenuItem nhậpDữLiệuToolStripMenuItem1;
     }
 }
