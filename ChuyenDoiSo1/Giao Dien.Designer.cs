@@ -458,5 +458,7 @@
         private ToolStripMenuItem hướngDẫnSửDụngToolStripMenuItem;
         private ToolStripMenuItem đổiMậtKhẩuToolStripMenuItem;
         private ToolStripMenuItem đổiGiaoDiệnToolStripMenuItem;
+        private ToolStripMenuItem nhậpDữLiệuToolStripMenuItem1;
+
     }
 }
