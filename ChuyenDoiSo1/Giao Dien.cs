@@ -54,5 +54,17 @@ namespace ChuyenDoiSo1
             HSTra_DABVMT hstda = new HSTra_DABVMT();
             hstda.ShowDialog();
         }
+
+        private void hướngDẫnSửDụngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HelpForm hp = new HelpForm();
+            hp.ShowDialog();
+        }
+
+        private void bảnĐăngKýĐạtTCMTToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Ban_dang_ki a = new Ban_dang_ki();
+            a.ShowDialog();
+        }
     }
 }
