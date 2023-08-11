@@ -1,8 +1,8 @@
 ﻿namespace khai_thac_nuoc_duoi_dat
 {
-    public partial class Form1 : Form
+    public partial class khaithac_dat : Form
     {
-        public Form1()
+        public khaithac_dat()
         {
             InitializeComponent();
         }

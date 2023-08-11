@@ -1,6 +1,6 @@
 ﻿namespace khai_thac_nuoc_duoi_dat
 {
-    partial class Form1
+    partial class khaithac_dat
     {
         /// <summary>
         ///  Required designer variable.

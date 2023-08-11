@@ -1,8 +1,8 @@
 namespace danh_gia_tac_dong_moi_truong
 {
-    public partial class Form1 : Form
+    public partial class danhgia_TDMT : Form
     {
-        public Form1()
+        public danhgia_TDMT()
         {
             InitializeComponent();
         }

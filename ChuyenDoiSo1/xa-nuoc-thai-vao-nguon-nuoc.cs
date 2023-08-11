@@ -1,8 +1,8 @@
 ﻿namespace xa_nuoc_thai_vao_nguon_nuoc
 {
-    public partial class Form1 : Form
+    public partial class xanuocthai_VNN : Form
     {
-        public Form1()
+        public xanuocthai_VNN()
         {
             InitializeComponent();
         }

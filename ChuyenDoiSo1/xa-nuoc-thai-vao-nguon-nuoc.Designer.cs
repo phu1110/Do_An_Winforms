@@ -1,6 +1,6 @@
 ﻿namespace xa_nuoc_thai_vao_nguon_nuoc
 {
-    partial class Form1
+    partial class xanuocthai_VNN
     {
         /// <summary>
         ///  Required designer variable.
