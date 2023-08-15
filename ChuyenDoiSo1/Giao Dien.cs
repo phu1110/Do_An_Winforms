@@ -114,7 +114,7 @@ namespace ChuyenDoiSo1
 
         private void kếHoạchBVMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            KehoachBVMT_QLHS_ a = new KehoachBVMT_QLHS_();
+            KH_Huyen a = new KH_Huyen();
             a.ShowDialog();
         }
 
@@ -132,7 +132,7 @@ namespace ChuyenDoiSo1
 
         private void camKếtBVMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Ban_cam_ket_BVMT_QLHS_ a = new Ban_cam_ket_BVMT_QLHS_();
+            BCK_Huyen a = new BCK_Huyen();
             a.ShowDialog();
         }
 
@@ -144,7 +144,7 @@ namespace ChuyenDoiSo1
 
         private void đềÁnBVMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            De_an_BVMT a = new De_an_BVMT();
+            DA_Huyen a = new DA_Huyen();
             a.ShowDialog();
         }
 
