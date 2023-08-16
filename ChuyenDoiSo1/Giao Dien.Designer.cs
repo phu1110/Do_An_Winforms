@@ -107,28 +107,28 @@
             // 
             this.saveToolStripMenuItem.Image = global::ChuyenDoiSo1.Properties.Resources.save;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.saveToolStripMenuItem.Text = "Lưu";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Image = global::ChuyenDoiSo1.Properties.Resources.save_as;
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.saveAsToolStripMenuItem.Text = "Lưu dưới dạng..";
             // 
             // mởTậpTinToolStripMenuItem
             // 
             this.mởTậpTinToolStripMenuItem.Image = global::ChuyenDoiSo1.Properties.Resources.folder;
             this.mởTậpTinToolStripMenuItem.Name = "mởTậpTinToolStripMenuItem";
-            this.mởTậpTinToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mởTậpTinToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.mởTậpTinToolStripMenuItem.Text = "Mở tập tin";
             // 
             // đóngToolStripMenuItem
             // 
             this.đóngToolStripMenuItem.Image = global::ChuyenDoiSo1.Properties.Resources.close;
             this.đóngToolStripMenuItem.Name = "đóngToolStripMenuItem";
-            this.đóngToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.đóngToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.đóngToolStripMenuItem.Text = "Đóng";
             // 
             // biênNhậnVàThốngKêToolStripMenuItem
@@ -144,14 +144,14 @@
             // 
             this.biênNhậnToolStripMenuItem.Image = global::ChuyenDoiSo1.Properties.Resources.receipt;
             this.biênNhậnToolStripMenuItem.Name = "biênNhậnToolStripMenuItem";
-            this.biênNhậnToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.biênNhậnToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.biênNhậnToolStripMenuItem.Text = "Biên nhận";
             // 
             // thốngKêToolStripMenuItem1
             // 
             this.thốngKêToolStripMenuItem1.Image = global::ChuyenDoiSo1.Properties.Resources.chart;
             this.thốngKêToolStripMenuItem1.Name = "thốngKêToolStripMenuItem1";
-            this.thốngKêToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.thốngKêToolStripMenuItem1.Size = new System.Drawing.Size(135, 22);
             this.thốngKêToolStripMenuItem1.Text = "Thống kê";
             this.thốngKêToolStripMenuItem1.Click += new System.EventHandler(this.thốngKêToolStripMenuItem1_Click_1);
             // 
@@ -404,12 +404,14 @@
             this.đổiMậtKhẩuToolStripMenuItem.Name = "đổiMậtKhẩuToolStripMenuItem";
             this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.đổiMậtKhẩuToolStripMenuItem.Text = "Đổi mật khẩu";
+            this.đổiMậtKhẩuToolStripMenuItem.Click += new System.EventHandler(this.đổiMậtKhẩuToolStripMenuItem_Click);
             // 
             // đổiGiaoDiệnToolStripMenuItem
             // 
             this.đổiGiaoDiệnToolStripMenuItem.Name = "đổiGiaoDiệnToolStripMenuItem";
             this.đổiGiaoDiệnToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.đổiGiaoDiệnToolStripMenuItem.Text = "Đổi giao diện";
+            this.đổiGiaoDiệnToolStripMenuItem.Click += new System.EventHandler(this.đổiGiaoDiệnToolStripMenuItem_Click);
             // 
             // label1
             // 

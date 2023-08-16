@@ -153,5 +153,17 @@ namespace ChuyenDoiSo1
             ThongKe TT = new ThongKe();
             TT.ShowDialog();
         }
+
+        private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DoimatkhauForm_ a = new DoimatkhauForm_();
+            a.ShowDialog();
+        }
+
+        private void đổiGiaoDiệnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DoigiaodienForm a = new DoigiaodienForm();
+            a.ShowDialog();
+        }
     }
 }
