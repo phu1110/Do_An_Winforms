@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ChuyenDoiSo1
 {
-    public partial class Ban_cam_ket_BVMT_QLHS_ : Form
+    public partial class DoimatkhauForm_ : Form
     {
-        public Ban_cam_ket_BVMT_QLHS_()
+        public DoimatkhauForm_()
         {
             InitializeComponent();
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
