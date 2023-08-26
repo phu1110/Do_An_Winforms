@@ -165,5 +165,11 @@ namespace ChuyenDoiSo1
             DoigiaodienForm a = new DoigiaodienForm();
             a.ShowDialog();
         }
+
+        private void vănBảnLuậtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LuatBVMT a = new LuatBVMT();
+            a.ShowDialog();
+        }
     }
 }

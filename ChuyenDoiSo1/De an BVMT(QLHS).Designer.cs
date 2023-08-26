@@ -69,7 +69,6 @@
             this.checkBoxKhongTinhhinhnopphi = new System.Windows.Forms.CheckBox();
             this.checkBoxCoTinhhinhnopphi = new System.Windows.Forms.CheckBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.linkDean = new System.Windows.Forms.LinkLabel();
             this.linkKehoach = new System.Windows.Forms.LinkLabel();
             this.linkCamket = new System.Windows.Forms.LinkLabel();
             this.label26 = new System.Windows.Forms.Label();
@@ -111,12 +110,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtTNHH = new System.Windows.Forms.TextBox();
+            this.linkDangki = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.linkDangki);
             this.panel1.Controls.Add(this.textBox19);
             this.panel1.Controls.Add(this.textBox20);
             this.panel1.Controls.Add(this.label44);
@@ -157,7 +158,6 @@
             this.panel1.Controls.Add(this.checkBoxKhongTinhhinhnopphi);
             this.panel1.Controls.Add(this.checkBoxCoTinhhinhnopphi);
             this.panel1.Controls.Add(this.label25);
-            this.panel1.Controls.Add(this.linkDean);
             this.panel1.Controls.Add(this.linkKehoach);
             this.panel1.Controls.Add(this.linkCamket);
             this.panel1.Controls.Add(this.label26);
@@ -549,17 +549,6 @@
             this.label25.TabIndex = 303;
             this.label25.Text = "Tình hình nộp phí nước thải (theo năm):";
             // 
-            // linkDean
-            // 
-            this.linkDean.AutoSize = true;
-            this.linkDean.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkDean.Location = new System.Drawing.Point(448, 376);
-            this.linkDean.Name = "linkDean";
-            this.linkDean.Size = new System.Drawing.Size(44, 17);
-            this.linkDean.TabIndex = 302;
-            this.linkDean.TabStop = true;
-            this.linkDean.Text = "Đề án";
-            // 
             // linkKehoach
             // 
             this.linkKehoach.AutoSize = true;
@@ -570,6 +559,7 @@
             this.linkKehoach.TabIndex = 301;
             this.linkKehoach.TabStop = true;
             this.linkKehoach.Text = "Bản Kế hoạch";
+            this.linkKehoach.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkKehoach_LinkClicked);
             // 
             // linkCamket
             // 
@@ -581,6 +571,7 @@
             this.linkCamket.TabIndex = 300;
             this.linkCamket.TabStop = true;
             this.linkCamket.Text = "Bản Cam Kết";
+            this.linkCamket.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkCamket_LinkClicked);
             // 
             // label26
             // 
@@ -935,6 +926,17 @@
             this.txtTNHH.Text = "CÔNG TY TNHH MỘT THÀNH VIÊN CNTT";
             this.txtTNHH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // linkDangki
+            // 
+            this.linkDangki.AutoSize = true;
+            this.linkDangki.Location = new System.Drawing.Point(440, 376);
+            this.linkDangki.Name = "linkDangki";
+            this.linkDangki.Size = new System.Drawing.Size(86, 17);
+            this.linkDangki.TabIndex = 343;
+            this.linkDangki.TabStop = true;
+            this.linkDangki.Text = "Bản Đăng Kí";
+            this.linkDangki.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkDangki_LinkClicked);
+            // 
             // De_an_BVMT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -1011,7 +1013,6 @@
         private CheckBox checkBoxKhongTinhhinhnopphi;
         private CheckBox checkBoxCoTinhhinhnopphi;
         private Label label25;
-        private LinkLabel linkDean;
         private LinkLabel linkKehoach;
         private LinkLabel linkCamket;
         private Label label26;
@@ -1036,5 +1037,6 @@
         private Label label30;
         private Label label31;
         private Label label32;
+        private LinkLabel linkDangki;
     }
 }
