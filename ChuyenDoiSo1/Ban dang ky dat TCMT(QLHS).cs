@@ -26,5 +26,23 @@ namespace ChuyenDoiSo1
         {
 
         }
+
+        private void linkCamket_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Ban_cam_ket_BVMT_QLHS_ a = new Ban_cam_ket_BVMT_QLHS_();
+            a.ShowDialog();
+        }
+
+        private void linkKehoach_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            KehoachBVMT_QLHS_ a = new KehoachBVMT_QLHS_();
+            a.ShowDialog();
+        }
+
+        private void linkDean_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            De_an_BVMT a = new De_an_BVMT();
+            a.ShowDialog();
+        }
     }
 }

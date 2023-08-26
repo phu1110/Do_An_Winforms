@@ -579,6 +579,7 @@
             this.linkDean.TabIndex = 277;
             this.linkDean.TabStop = true;
             this.linkDean.Text = "Đề án";
+            this.linkDean.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkDean_LinkClicked);
             // 
             // linkKehoach
             // 
@@ -590,6 +591,7 @@
             this.linkKehoach.TabIndex = 276;
             this.linkKehoach.TabStop = true;
             this.linkKehoach.Text = "Bản Kế hoạch";
+            this.linkKehoach.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkKehoach_LinkClicked);
             // 
             // linkCamket
             // 
@@ -601,6 +603,7 @@
             this.linkCamket.TabIndex = 275;
             this.linkCamket.TabStop = true;
             this.linkCamket.Text = "Bản Cam Kết";
+            this.linkCamket.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkCamket_LinkClicked);
             // 
             // label26
             // 
@@ -1034,7 +1037,6 @@
         private Label label25;
         private LinkLabel linkDean;
         private LinkLabel linkKehoach;
-        private LinkLabel linkCamket;
         private Label label26;
         private Label label22;
         private TextBox textBox18;
@@ -1059,5 +1061,6 @@
         private Label label30;
         private Label label31;
         private Label label32;
+        private LinkLabel linkCamket;
     }
 }

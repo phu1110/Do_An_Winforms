@@ -73,7 +73,6 @@
             this.label25 = new System.Windows.Forms.Label();
             this.linkDean = new System.Windows.Forms.LinkLabel();
             this.linkKehoach = new System.Windows.Forms.LinkLabel();
-            this.linkCamket = new System.Windows.Forms.LinkLabel();
             this.label26 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -113,12 +112,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtTNHH = new System.Windows.Forms.TextBox();
+            this.linkDangki = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.linkDangki);
             this.panel1.Controls.Add(this.textBox18);
             this.panel1.Controls.Add(this.label43);
             this.panel1.Controls.Add(this.textBox19);
@@ -163,7 +164,6 @@
             this.panel1.Controls.Add(this.label25);
             this.panel1.Controls.Add(this.linkDean);
             this.panel1.Controls.Add(this.linkKehoach);
-            this.panel1.Controls.Add(this.linkCamket);
             this.panel1.Controls.Add(this.label26);
             this.panel1.Controls.Add(this.label22);
             this.panel1.Controls.Add(this.label21);
@@ -391,7 +391,7 @@
             // 
             // txtSovanbanGPKT
             // 
-            this.txtSovanbanGPKT.Location = new System.Drawing.Point(222, 654);
+            this.txtSovanbanGPKT.Location = new System.Drawing.Point(226, 653);
             this.txtSovanbanGPKT.Name = "txtSovanbanGPKT";
             this.txtSovanbanGPKT.Size = new System.Drawing.Size(179, 25);
             this.txtSovanbanGPKT.TabIndex = 272;
@@ -399,7 +399,7 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(142, 654);
+            this.label33.Location = new System.Drawing.Point(146, 653);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(76, 17);
             this.label33.TabIndex = 271;
@@ -407,7 +407,7 @@
             // 
             // txtCongXuatGPKT
             // 
-            this.txtCongXuatGPKT.Location = new System.Drawing.Point(215, 621);
+            this.txtCongXuatGPKT.Location = new System.Drawing.Point(219, 620);
             this.txtCongXuatGPKT.Name = "txtCongXuatGPKT";
             this.txtCongXuatGPKT.Size = new System.Drawing.Size(182, 25);
             this.txtCongXuatGPKT.TabIndex = 270;
@@ -415,7 +415,7 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(142, 624);
+            this.label34.Location = new System.Drawing.Point(146, 623);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(70, 17);
             this.label34.TabIndex = 269;
@@ -424,7 +424,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(15, 624);
+            this.label35.Location = new System.Drawing.Point(19, 623);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(122, 17);
             this.label35.TabIndex = 268;
@@ -432,7 +432,7 @@
             // 
             // txtSovanbanGPXT
             // 
-            this.txtSovanbanGPXT.Location = new System.Drawing.Point(226, 583);
+            this.txtSovanbanGPXT.Location = new System.Drawing.Point(230, 582);
             this.txtSovanbanGPXT.Name = "txtSovanbanGPXT";
             this.txtSovanbanGPXT.Size = new System.Drawing.Size(182, 25);
             this.txtSovanbanGPXT.TabIndex = 267;
@@ -440,7 +440,7 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(146, 587);
+            this.label36.Location = new System.Drawing.Point(150, 586);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(76, 17);
             this.label36.TabIndex = 266;
@@ -448,7 +448,7 @@
             // 
             // txtLuuluongGPXT
             // 
-            this.txtLuuluongGPXT.Location = new System.Drawing.Point(226, 548);
+            this.txtLuuluongGPXT.Location = new System.Drawing.Point(230, 547);
             this.txtLuuluongGPXT.Name = "txtLuuluongGPXT";
             this.txtLuuluongGPXT.Size = new System.Drawing.Size(182, 25);
             this.txtLuuluongGPXT.TabIndex = 265;
@@ -456,7 +456,7 @@
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(146, 552);
+            this.label37.Location = new System.Drawing.Point(150, 551);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(72, 17);
             this.label37.TabIndex = 264;
@@ -465,7 +465,7 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(15, 552);
+            this.label38.Location = new System.Drawing.Point(19, 551);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(113, 17);
             this.label38.TabIndex = 263;
@@ -474,7 +474,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(185, 522);
+            this.label27.Location = new System.Drawing.Point(226, 517);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(55, 17);
             this.label27.TabIndex = 262;
@@ -482,7 +482,7 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(247, 516);
+            this.textBox11.Location = new System.Drawing.Point(288, 511);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(182, 25);
             this.textBox11.TabIndex = 261;
@@ -563,7 +563,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label25.Location = new System.Drawing.Point(10, 420);
+            this.label25.Location = new System.Drawing.Point(7, 421);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(238, 17);
             this.label25.TabIndex = 253;
@@ -573,40 +573,31 @@
             // 
             this.linkDean.AutoSize = true;
             this.linkDean.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkDean.Location = new System.Drawing.Point(442, 394);
+            this.linkDean.Location = new System.Drawing.Point(312, 394);
             this.linkDean.Name = "linkDean";
-            this.linkDean.Size = new System.Drawing.Size(44, 17);
+            this.linkDean.Size = new System.Drawing.Size(48, 17);
             this.linkDean.TabIndex = 252;
             this.linkDean.TabStop = true;
-            this.linkDean.Text = "Đề án";
+            this.linkDean.Text = "Đề Án";
+            this.linkDean.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkDean_LinkClicked);
             // 
             // linkKehoach
             // 
             this.linkKehoach.AutoSize = true;
             this.linkKehoach.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkKehoach.Location = new System.Drawing.Point(335, 394);
+            this.linkKehoach.Location = new System.Drawing.Point(213, 394);
             this.linkKehoach.Name = "linkKehoach";
-            this.linkKehoach.Size = new System.Drawing.Size(93, 17);
+            this.linkKehoach.Size = new System.Drawing.Size(97, 17);
             this.linkKehoach.TabIndex = 251;
             this.linkKehoach.TabStop = true;
-            this.linkKehoach.Text = "Bản Kế hoạch";
-            // 
-            // linkCamket
-            // 
-            this.linkCamket.AutoSize = true;
-            this.linkCamket.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkCamket.Location = new System.Drawing.Point(233, 394);
-            this.linkCamket.Name = "linkCamket";
-            this.linkCamket.Size = new System.Drawing.Size(90, 17);
-            this.linkCamket.TabIndex = 250;
-            this.linkCamket.TabStop = true;
-            this.linkCamket.Text = "Bản Cam Kết";
+            this.linkKehoach.Text = "Bản Kế Hoạch";
+            this.linkKehoach.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkKehoach_LinkClicked);
             // 
             // label26
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(10, 394);
+            this.label26.Location = new System.Drawing.Point(9, 394);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(203, 17);
             this.label26.TabIndex = 249;
@@ -955,6 +946,17 @@
             this.txtTNHH.Text = "CÔNG TY TNHH MỘT THÀNH VIÊN CNTT";
             this.txtTNHH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // linkDangki
+            // 
+            this.linkDangki.AutoSize = true;
+            this.linkDangki.Location = new System.Drawing.Point(364, 393);
+            this.linkDangki.Name = "linkDangki";
+            this.linkDangki.Size = new System.Drawing.Size(86, 17);
+            this.linkDangki.TabIndex = 295;
+            this.linkDangki.TabStop = true;
+            this.linkDangki.Text = "Bản Đăng Kí";
+            this.linkDangki.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkDangki_LinkClicked);
+            // 
             // Ban_cam_ket_BVMT_QLHS_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -1019,7 +1021,6 @@
         private Label label25;
         private LinkLabel linkDean;
         private LinkLabel linkKehoach;
-        private LinkLabel linkCamket;
         private Label label26;
         private Label label22;
         private Label label21;
@@ -1059,5 +1060,6 @@
         private Label label1;
         private Label label4;
         private TextBox txtTNHH;
+        private LinkLabel linkDangki;
     }
 }

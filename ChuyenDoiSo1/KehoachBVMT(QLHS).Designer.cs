@@ -70,7 +70,6 @@
             this.checkBoxCoTinhhinhnopphi = new System.Windows.Forms.CheckBox();
             this.label25 = new System.Windows.Forms.Label();
             this.linkDean = new System.Windows.Forms.LinkLabel();
-            this.linkKehoach = new System.Windows.Forms.LinkLabel();
             this.linkCamket = new System.Windows.Forms.LinkLabel();
             this.label26 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -110,12 +109,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtDiadanh = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.linkDangki = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.linkDangki);
             this.panel1.Controls.Add(this.textBox19);
             this.panel1.Controls.Add(this.textBox20);
             this.panel1.Controls.Add(this.label44);
@@ -157,7 +158,6 @@
             this.panel1.Controls.Add(this.checkBoxCoTinhhinhnopphi);
             this.panel1.Controls.Add(this.label25);
             this.panel1.Controls.Add(this.linkDean);
-            this.panel1.Controls.Add(this.linkKehoach);
             this.panel1.Controls.Add(this.linkCamket);
             this.panel1.Controls.Add(this.label26);
             this.panel1.Controls.Add(this.label22);
@@ -551,23 +551,13 @@
             // 
             this.linkDean.AutoSize = true;
             this.linkDean.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkDean.Location = new System.Drawing.Point(455, 378);
+            this.linkDean.Location = new System.Drawing.Point(434, 374);
             this.linkDean.Name = "linkDean";
             this.linkDean.Size = new System.Drawing.Size(44, 17);
             this.linkDean.TabIndex = 327;
             this.linkDean.TabStop = true;
             this.linkDean.Text = "Đề án";
-            // 
-            // linkKehoach
-            // 
-            this.linkKehoach.AutoSize = true;
-            this.linkKehoach.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.linkKehoach.Location = new System.Drawing.Point(348, 374);
-            this.linkKehoach.Name = "linkKehoach";
-            this.linkKehoach.Size = new System.Drawing.Size(93, 17);
-            this.linkKehoach.TabIndex = 326;
-            this.linkKehoach.TabStop = true;
-            this.linkKehoach.Text = "Bản Kế hoạch";
+            this.linkDean.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkDean_LinkClicked);
             // 
             // linkCamket
             // 
@@ -579,6 +569,7 @@
             this.linkCamket.TabIndex = 325;
             this.linkCamket.TabStop = true;
             this.linkCamket.Text = "Bản Cam Kết";
+            this.linkCamket.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkCamket_LinkClicked);
             // 
             // label26
             // 
@@ -923,6 +914,17 @@
             this.label5.TabIndex = 237;
             this.label5.Text = "-----------";
             // 
+            // linkDangki
+            // 
+            this.linkDangki.AutoSize = true;
+            this.linkDangki.Location = new System.Drawing.Point(342, 374);
+            this.linkDangki.Name = "linkDangki";
+            this.linkDangki.Size = new System.Drawing.Size(86, 17);
+            this.linkDangki.TabIndex = 368;
+            this.linkDangki.TabStop = true;
+            this.linkDangki.Text = "Bản Đăng Kí";
+            this.linkDangki.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkDangki_LinkClicked);
+            // 
             // KehoachBVMT_QLHS_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -999,7 +1001,6 @@
         private CheckBox checkBoxCoTinhhinhnopphi;
         private Label label25;
         private LinkLabel linkDean;
-        private LinkLabel linkKehoach;
         private LinkLabel linkCamket;
         private Label label26;
         private Label label22;
@@ -1023,5 +1024,6 @@
         private Label label30;
         private Label label31;
         private Label label32;
+        private LinkLabel linkDangki;
     }
 }
