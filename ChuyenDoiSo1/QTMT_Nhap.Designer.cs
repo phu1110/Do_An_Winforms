@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -40,7 +41,6 @@
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -61,13 +61,26 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.label25);
+            this.panel1.Controls.Add(this.label24);
+            this.panel1.Controls.Add(this.label23);
+            this.panel1.Controls.Add(this.label22);
+            this.panel1.Controls.Add(this.label21);
+            this.panel1.Controls.Add(this.label20);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.textBox9);
             this.panel1.Controls.Add(this.label15);
@@ -80,7 +93,6 @@
             this.panel1.Controls.Add(this.textBox13);
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.textBox8);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.label11);
@@ -106,12 +118,22 @@
             this.panel1.Size = new System.Drawing.Size(670, 809);
             this.panel1.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(294, 747);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "Lưu";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(271, 632);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(202, 25);
+            this.textBox9.Size = new System.Drawing.Size(393, 25);
             this.textBox9.TabIndex = 31;
+            this.textBox9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox9_KeyPress);
             // 
             // label15
             // 
@@ -125,9 +147,11 @@
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(229, 590);
+            this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(202, 25);
+            this.textBox10.Size = new System.Drawing.Size(435, 25);
             this.textBox10.TabIndex = 29;
+            this.textBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox10_KeyPress);
             // 
             // label16
             // 
@@ -141,9 +165,11 @@
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(229, 553);
+            this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(202, 25);
+            this.textBox11.Size = new System.Drawing.Size(435, 25);
             this.textBox11.TabIndex = 27;
+            this.textBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox11_KeyPress);
             // 
             // label17
             // 
@@ -157,9 +183,12 @@
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(166, 511);
+            this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(202, 25);
+            this.textBox12.Size = new System.Drawing.Size(498, 25);
             this.textBox12.TabIndex = 25;
+            this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
+            this.textBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox12_KeyPress);
             // 
             // label18
             // 
@@ -173,9 +202,11 @@
             // textBox13
             // 
             this.textBox13.Location = new System.Drawing.Point(166, 469);
+            this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(202, 25);
+            this.textBox13.Size = new System.Drawing.Size(498, 25);
             this.textBox13.TabIndex = 23;
+            this.textBox13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox13_KeyPress);
             // 
             // label19
             // 
@@ -194,15 +225,6 @@
             this.label14.Size = new System.Drawing.Size(123, 17);
             this.label14.TabIndex = 21;
             this.label14.Text = "Các Thứ Sử Dụng :";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(386, 400);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(145, 17);
-            this.label13.TabIndex = 20;
-            this.label13.Text = "Lưu lượng tối đa ?????";
             // 
             // textBox8
             // 
@@ -225,9 +247,9 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(386, 360);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(145, 17);
+            this.label11.Size = new System.Drawing.Size(92, 17);
             this.label11.TabIndex = 17;
-            this.label11.Text = "Lưu lượng tối đa ?????";
+            this.label11.Text = "2 kg/m3 tối đa";
             // 
             // textBox7
             // 
@@ -368,14 +390,68 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nhập dữ liệu Quan Trắc Môi Trường";
             // 
-            // button1
+            // label20
             // 
-            this.button1.Location = new System.Drawing.Point(294, 747);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "Lưu";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(386, 80);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(48, 17);
+            this.label20.TabIndex = 33;
+            this.label20.Text = " kg/m3";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(386, 206);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(48, 17);
+            this.label21.TabIndex = 34;
+            this.label21.Text = " kg/m3";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(386, 164);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(48, 17);
+            this.label22.TabIndex = 35;
+            this.label22.Text = " kg/m3";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(386, 122);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(48, 17);
+            this.label23.TabIndex = 36;
+            this.label23.Text = " kg/m3";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(386, 248);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(48, 17);
+            this.label24.TabIndex = 37;
+            this.label24.Text = " kg/m3";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(386, 290);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(48, 17);
+            this.label25.TabIndex = 38;
+            this.label25.Text = " kg/m3";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(386, 400);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(92, 17);
+            this.label13.TabIndex = 39;
+            this.label13.Text = "2 kg/m3 tối đa";
             // 
             // QTMT_Nhap
             // 
@@ -409,7 +485,6 @@
         private TextBox textBox13;
         private Label label19;
         private Label label14;
-        private Label label13;
         private TextBox textBox8;
         private Label label12;
         private Label label11;
@@ -429,5 +504,12 @@
         private TextBox textBox1;
         private Label label3;
         private Button button1;
+        private Label label25;
+        private Label label24;
+        private Label label23;
+        private Label label22;
+        private Label label21;
+        private Label label20;
+        private Label label13;
     }
 }

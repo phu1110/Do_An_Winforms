@@ -16,5 +16,35 @@ namespace ChuyenDoiSo1
         {
             InitializeComponent();
         }
+
+        private void textBox8_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
+
+        private void textBox7_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
+
+        private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
     }
 }

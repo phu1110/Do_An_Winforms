@@ -16,5 +16,28 @@ namespace ChuyenDoiSo1
         {
             InitializeComponent();
         }
+<<<<<<< Updated upstream
+=======
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox20_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox20_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
+>>>>>>> Stashed changes
     }
 }

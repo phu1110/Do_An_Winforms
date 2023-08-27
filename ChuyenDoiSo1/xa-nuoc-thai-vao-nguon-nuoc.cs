@@ -14,5 +14,60 @@
             bottomMarginPanel.Height = 20; // Chiều cao của khoảng trống
             this.Controls.Add(bottomMarginPanel);
         }
+
+        private void textBox6_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
+
+        private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
+
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void textBox11_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
+
+        private void textBox9_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
+
+        private void textBox13_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                TextBox textBox = (TextBox)sender;
+                textBox.AppendText(Environment.NewLine);
+                e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
+            }
+        }
     }
 }

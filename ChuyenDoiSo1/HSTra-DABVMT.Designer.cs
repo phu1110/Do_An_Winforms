@@ -187,6 +187,7 @@
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(117, 602);
+            this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(656, 23);
             this.textBox8.TabIndex = 49;
@@ -204,9 +205,12 @@
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(144, 565);
+            this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(629, 23);
             this.textBox7.TabIndex = 47;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox7_KeyPress);
             // 
             // label16
             // 
@@ -221,9 +225,11 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(209, 528);
+            this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(564, 23);
             this.textBox6.TabIndex = 45;
+            this.textBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox6_KeyPress);
             // 
             // label15
             // 
@@ -377,9 +383,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(211, 184);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 15);
+            this.label8.Size = new System.Drawing.Size(60, 15);
             this.label8.TabIndex = 29;
-            this.label8.Text = "BĐK/TNMT";
+            this.label8.Text = "DA/TNMT";
             // 
             // TB2
             // 
@@ -525,7 +531,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-9, -89);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(791, 900);
+            this.panel1.Size = new System.Drawing.Size(757, 900);
             this.panel1.TabIndex = 1;
             // 
             // HSTra_DABVMT
