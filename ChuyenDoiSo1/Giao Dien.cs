@@ -52,7 +52,7 @@ namespace ChuyenDoiSo1
 
         private void nhậpDữLiệuToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-           HSTra_BKHBVMT hst = new HSTra_BKHBVMT();
+            HSTra_BKHBVMT hst = new HSTra_BKHBVMT();
             hst.ShowDialog();
             HSTra_DABVMT hstda = new HSTra_DABVMT();
             hstda.ShowDialog();
@@ -72,8 +72,10 @@ namespace ChuyenDoiSo1
 
         private void quảnLýTàiNguyênĐấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            /*
             khaithac_dat kt_dat = new khaithac_dat();
             kt_dat.ShowDialog();
+            */
         }
 
         private void đánhGiáTácĐộngMôiTrườngToolStripMenuItem_Click(object sender, EventArgs e)
@@ -84,7 +86,7 @@ namespace ChuyenDoiSo1
 
         private void xảNướcThảVàoNguồnNướcToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            xanuocthai_VNN  xnt = new xanuocthai_VNN();
+            xanuocthai_VNN xnt = new xanuocthai_VNN();
             xnt.ShowDialog();
         }
 
@@ -126,7 +128,7 @@ namespace ChuyenDoiSo1
 
         private void khaiThácNướcDướiĐấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            khaithac_dat a = new khaithac_dat();
+            kthac_nuocduoidat a = new kthac_nuocduoidat();
             a.ShowDialog();
         }
 
