@@ -114,7 +114,6 @@
             this.label46 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-<<<<<<< Updated upstream
             // txtTNHH
             // 
             this.txtTNHH.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -457,7 +456,6 @@
             this.label22.Size = new System.Drawing.Size(124, 17);
             this.label22.TabIndex = 62;
             this.label22.Text = "2. Dữ liệu quản lí:";
-=======
             // panel1
             // 
             this.panel1.AutoScroll = true;
@@ -830,7 +828,7 @@
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(182, 21);
             this.textBox11.TabIndex = 286;
->>>>>>> Stashed changes
+
             // 
             // checkBoxKhongXNHT
             // 
@@ -838,13 +836,12 @@
             this.checkBoxKhongXNHT.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.checkBoxKhongXNHT.Location = new System.Drawing.Point(341, 445);
             this.checkBoxKhongXNHT.Name = "checkBoxKhongXNHT";
-<<<<<<< Updated upstream
+
             this.checkBoxKhongXNHT.Size = new System.Drawing.Size(69, 21);
             this.checkBoxKhongXNHT.TabIndex = 74;
-=======
             this.checkBoxKhongXNHT.Size = new System.Drawing.Size(58, 19);
             this.checkBoxKhongXNHT.TabIndex = 285;
->>>>>>> Stashed changes
+
             this.checkBoxKhongXNHT.Text = "Không";
             this.checkBoxKhongXNHT.UseVisualStyleBackColor = true;
             // 
@@ -854,13 +851,12 @@
             this.checkBoxCoXNHT.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.checkBoxCoXNHT.Location = new System.Drawing.Point(295, 445);
             this.checkBoxCoXNHT.Name = "checkBoxCoXNHT";
-<<<<<<< Updated upstream
+
             this.checkBoxCoXNHT.Size = new System.Drawing.Size(47, 21);
             this.checkBoxCoXNHT.TabIndex = 73;
-=======
             this.checkBoxCoXNHT.Size = new System.Drawing.Size(40, 19);
             this.checkBoxCoXNHT.TabIndex = 284;
->>>>>>> Stashed changes
+
             this.checkBoxCoXNHT.Text = "Có";
             this.checkBoxCoXNHT.UseVisualStyleBackColor = true;
             // 
@@ -870,13 +866,12 @@
             this.label23.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label23.Location = new System.Drawing.Point(17, 448);
             this.label23.Name = "label23";
-<<<<<<< Updated upstream
+
             this.label23.Size = new System.Drawing.Size(281, 17);
             this.label23.TabIndex = 72;
-=======
             this.label23.Size = new System.Drawing.Size(229, 15);
             this.label23.TabIndex = 283;
->>>>>>> Stashed changes
+
             this.label23.Text = "XNHT (Xác nhận hoàn thành các công trình): ";
             // 
             // txtSoTienXNHT
@@ -884,13 +879,12 @@
             this.txtSoTienXNHT.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtSoTienXNHT.Location = new System.Drawing.Point(224, 405);
             this.txtSoTienXNHT.Name = "txtSoTienXNHT";
-<<<<<<< Updated upstream
+
             this.txtSoTienXNHT.Size = new System.Drawing.Size(159, 25);
             this.txtSoTienXNHT.TabIndex = 71;
-=======
             this.txtSoTienXNHT.Size = new System.Drawing.Size(182, 21);
             this.txtSoTienXNHT.TabIndex = 282;
->>>>>>> Stashed changes
+
             // 
             // label24
             // 
@@ -898,13 +892,12 @@
             this.label24.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label24.Location = new System.Drawing.Point(171, 413);
             this.label24.Name = "label24";
-<<<<<<< Updated upstream
+
             this.label24.Size = new System.Drawing.Size(55, 17);
             this.label24.TabIndex = 70;
-=======
             this.label24.Size = new System.Drawing.Size(47, 15);
             this.label24.TabIndex = 281;
->>>>>>> Stashed changes
+
             this.label24.Text = "Số Tiền:";
             // 
             // checkBoxKhongTinhhinhnopphi
@@ -913,13 +906,12 @@
             this.checkBoxKhongTinhhinhnopphi.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.checkBoxKhongTinhhinhnopphi.Location = new System.Drawing.Point(309, 381);
             this.checkBoxKhongTinhhinhnopphi.Name = "checkBoxKhongTinhhinhnopphi";
-<<<<<<< Updated upstream
+
             this.checkBoxKhongTinhhinhnopphi.Size = new System.Drawing.Size(69, 21);
             this.checkBoxKhongTinhhinhnopphi.TabIndex = 69;
-=======
             this.checkBoxKhongTinhhinhnopphi.Size = new System.Drawing.Size(58, 19);
             this.checkBoxKhongTinhhinhnopphi.TabIndex = 280;
->>>>>>> Stashed changes
+
             this.checkBoxKhongTinhhinhnopphi.Text = "Không";
             this.checkBoxKhongTinhhinhnopphi.UseVisualStyleBackColor = true;
             // 
@@ -929,13 +921,12 @@
             this.checkBoxCoTinhhinhnopphi.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.checkBoxCoTinhhinhnopphi.Location = new System.Drawing.Point(263, 381);
             this.checkBoxCoTinhhinhnopphi.Name = "checkBoxCoTinhhinhnopphi";
-<<<<<<< Updated upstream
+
             this.checkBoxCoTinhhinhnopphi.Size = new System.Drawing.Size(47, 21);
             this.checkBoxCoTinhhinhnopphi.TabIndex = 68;
-=======
             this.checkBoxCoTinhhinhnopphi.Size = new System.Drawing.Size(40, 19);
             this.checkBoxCoTinhhinhnopphi.TabIndex = 279;
->>>>>>> Stashed changes
+
             this.checkBoxCoTinhhinhnopphi.Text = "Có";
             this.checkBoxCoTinhhinhnopphi.UseVisualStyleBackColor = true;
             // 
@@ -945,13 +936,12 @@
             this.label25.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label25.Location = new System.Drawing.Point(17, 383);
             this.label25.Name = "label25";
-<<<<<<< Updated upstream
+
             this.label25.Size = new System.Drawing.Size(238, 17);
             this.label25.TabIndex = 67;
-=======
             this.label25.Size = new System.Drawing.Size(201, 15);
             this.label25.TabIndex = 278;
->>>>>>> Stashed changes
+
             this.label25.Text = "Tình hình nộp phí nước thải (theo năm):";
             // 
             // linkDean
@@ -960,13 +950,12 @@
             this.linkDean.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkDean.Location = new System.Drawing.Point(394, 359);
             this.linkDean.Name = "linkDean";
-<<<<<<< Updated upstream
+
             this.linkDean.Size = new System.Drawing.Size(44, 17);
             this.linkDean.TabIndex = 66;
-=======
             this.linkDean.Size = new System.Drawing.Size(35, 15);
             this.linkDean.TabIndex = 277;
->>>>>>> Stashed changes
+
             this.linkDean.TabStop = true;
             this.linkDean.Text = "Đề án";
             // 
@@ -976,13 +965,12 @@
             this.linkKehoach.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkKehoach.Location = new System.Drawing.Point(295, 359);
             this.linkKehoach.Name = "linkKehoach";
-<<<<<<< Updated upstream
+
             this.linkKehoach.Size = new System.Drawing.Size(93, 17);
             this.linkKehoach.TabIndex = 65;
-=======
             this.linkKehoach.Size = new System.Drawing.Size(74, 15);
             this.linkKehoach.TabIndex = 276;
->>>>>>> Stashed changes
+
             this.linkKehoach.TabStop = true;
             this.linkKehoach.Text = "Bản Kế hoạch";
             // 
@@ -992,13 +980,12 @@
             this.linkCamket.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.linkCamket.Location = new System.Drawing.Point(205, 359);
             this.linkCamket.Name = "linkCamket";
-<<<<<<< Updated upstream
+
             this.linkCamket.Size = new System.Drawing.Size(90, 17);
             this.linkCamket.TabIndex = 64;
-=======
             this.linkCamket.Size = new System.Drawing.Size(72, 15);
             this.linkCamket.TabIndex = 275;
->>>>>>> Stashed changes
+
             this.linkCamket.TabStop = true;
             this.linkCamket.Text = "Bản Cam Kết";
             this.linkCamket.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkCamket_LinkClicked);
@@ -1009,7 +996,7 @@
             this.label26.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label26.Location = new System.Drawing.Point(17, 359);
             this.label26.Name = "label26";
-<<<<<<< Updated upstream
+
             this.label26.Size = new System.Drawing.Size(203, 17);
             this.label26.TabIndex = 63;
             this.label26.Text = "Giấy xác nhận hồ sơ môi trường: ";
@@ -1293,7 +1280,6 @@
             this.label46.Size = new System.Drawing.Size(161, 17);
             this.label46.TabIndex = 102;
             this.label46.Text = "- Xin điều chỉnh nội dung: ";
-=======
             this.label26.Size = new System.Drawing.Size(166, 15);
             this.label26.TabIndex = 274;
             this.label26.Text = "Giấy xác nhận hồ sơ môi trường: ";
@@ -1640,7 +1626,7 @@
             this.txtTNHH.TabIndex = 201;
             this.txtTNHH.Text = "CÔNG TY TNHH MỘT THÀNH VIÊN CNTT";
             this.txtTNHH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
->>>>>>> Stashed changes
+
             // 
             // Ban_dang_ky_dat_TCMT_QLHS_
             // 

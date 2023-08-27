@@ -16,8 +16,7 @@ namespace ChuyenDoiSo1
         {
             InitializeComponent();
         }
-<<<<<<< Updated upstream
-=======
+
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
@@ -38,6 +37,5 @@ namespace ChuyenDoiSo1
                 e.Handled = true; // Ngăn việc kích hoạt sự kiện mặc định của phím Enter
             }
         }
->>>>>>> Stashed changes
     }
 }
