@@ -173,5 +173,25 @@ namespace ChuyenDoiSo1
             LuatBVMT a = new LuatBVMT();
             a.ShowDialog();
         }
-    }
+
+        private void nhậpDữLiệuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            QTMT_Nhap a = new QTMT_Nhap();
+            a.ShowDialog();
+        }
+
+        private void xemDữLiệuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            QTMT_Xem a = new QTMT_Xem();
+            a.ShowDialog();
+        }
+
+        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            QTMT_THONGKE a = new QTMT_THONGKE();
+            a.ShowDialog();
+        }
+
+       
+    } 
 }

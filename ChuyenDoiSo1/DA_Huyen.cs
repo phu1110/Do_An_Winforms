@@ -57,8 +57,7 @@ namespace ChuyenDoiSo1
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            BCK_Huyen a = new BCK_Huyen();
-            ShowDialog(a);
+            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
