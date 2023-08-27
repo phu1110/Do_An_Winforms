@@ -54,7 +54,7 @@ namespace ChuyenDoiSo1
 
         private void textBox11_KeyPress(object sender, KeyPressEventArgs e)
         {
-            f(e.KeyChar == (char)Keys.Enter)
+            if(e.KeyChar == (char)Keys.Enter)
             {
                 TextBox textBox = (TextBox)sender;
                 textBox.AppendText(Environment.NewLine);
@@ -64,7 +64,7 @@ namespace ChuyenDoiSo1
 
         private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
         {
-            f(e.KeyChar == (char)Keys.Enter)
+            if(e.KeyChar == (char)Keys.Enter)
             {
                 TextBox textBox = (TextBox)sender;
                 textBox.AppendText(Environment.NewLine);
