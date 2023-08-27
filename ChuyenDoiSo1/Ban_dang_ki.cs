@@ -41,5 +41,26 @@ namespace ChuyenDoiSo1
         {
 
         }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (textBox.Multiline)
+                {
+                    int selectionStart = textBox.SelectionStart;
+                    textBox.Text = textBox.Text.Insert(selectionStart, Environment.NewLine);
+                    textBox.SelectionStart = selectionStart + Environment.NewLine.Length;
+                    e.Handled = true;
+                }
+            }
+        }
     }
 }
