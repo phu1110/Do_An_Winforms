@@ -16,5 +16,37 @@ namespace ChuyenDoiSo1
         {
             InitializeComponent();
         }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (textBox.Multiline)
+                {
+                    int selectionStart = textBox.SelectionStart;
+                    textBox.Text = textBox.Text.Insert(selectionStart, Environment.NewLine);
+                    textBox.SelectionStart = selectionStart + Environment.NewLine.Length;
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void textBox9_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (textBox.Multiline)
+                {
+                    int selectionStart = textBox.SelectionStart;
+                    textBox.Text = textBox.Text.Insert(selectionStart, Environment.NewLine);
+                    textBox.SelectionStart = selectionStart + Environment.NewLine.Length;
+                    e.Handled = true;
+                }
+            }
+        }
     }
 }

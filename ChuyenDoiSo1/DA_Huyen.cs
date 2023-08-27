@@ -16,5 +16,67 @@ namespace ChuyenDoiSo1
         {
             InitializeComponent();
         }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (textBox.Multiline)
+                {
+                    int selectionStart = textBox.SelectionStart;
+                    textBox.Text = textBox.Text.Insert(selectionStart, Environment.NewLine);
+                    textBox.SelectionStart = selectionStart + Environment.NewLine.Length;
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (textBox.Multiline)
+                {
+                    int selectionStart = textBox.SelectionStart;
+                    textBox.Text = textBox.Text.Insert(selectionStart, Environment.NewLine);
+                    textBox.SelectionStart = selectionStart + Environment.NewLine.Length;
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Ban_dang_ki a = new Ban_dang_ki();
+            ShowDialog(a);
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            BCK_Huyen a = new BCK_Huyen();
+            ShowDialog(a);
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            KH_Huyen a = new KH_Huyen();
+            ShowDialog(a);
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            HSTra_BKHBVMT a = new HSTra_BKHBVMT();
+            ShowDialog(a);
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            HSTra_DABVMT a = new HSTra_DABVMT();
+            ShowDialog(a);
+        }
     }
 }

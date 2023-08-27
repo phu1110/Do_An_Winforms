@@ -28,88 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            dataGridView1 = new DataGridView();
-            nam = new DataGridViewTextBoxColumn();
-            loaihinh = new DataGridViewTextBoxColumn();
-            khuvuc = new DataGridViewTextBoxColumn();
-            sohoso = new DataGridViewTextBoxColumn();
-            panel1 = new Panel();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            panel1.SuspendLayout();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.nam = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loaihinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.khuvuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sohoso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            label1.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(351, 40);
-            label1.Name = "label1";
-            label1.Size = new Size(240, 22);
-            label1.TabIndex = 1;
-            label1.Text = "BẢNG THỐNG KÊ HỒ SƠ";
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(351, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(240, 22);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "BẢNG THỐNG KÊ HỒ SƠ";
             // 
             // dataGridView1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { nam, loaihinh, khuvuc, sohoso });
-            dataGridView1.Location = new Point(134, 81);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(650, 458);
-            dataGridView1.TabIndex = 0;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nam,
+            this.loaihinh,
+            this.khuvuc,
+            this.sohoso});
+            this.dataGridView1.Location = new System.Drawing.Point(134, 81);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(650, 458);
+            this.dataGridView1.TabIndex = 0;
             // 
             // nam
             // 
-            nam.HeaderText = "Năm";
-            nam.Name = "nam";
+            this.nam.HeaderText = "Năm";
+            this.nam.Name = "nam";
             // 
             // loaihinh
             // 
-            loaihinh.HeaderText = "Loại Hình";
-            loaihinh.Name = "loaihinh";
-            loaihinh.Width = 150;
+            this.loaihinh.HeaderText = "Loại Hình";
+            this.loaihinh.Name = "loaihinh";
+            this.loaihinh.Width = 150;
             // 
             // khuvuc
             // 
-            khuvuc.HeaderText = "Khu Vực (Xã)";
-            khuvuc.Name = "khuvuc";
-            khuvuc.Width = 250;
+            this.khuvuc.HeaderText = "Khu Vực (Xã)";
+            this.khuvuc.Name = "khuvuc";
+            this.khuvuc.Width = 250;
             // 
             // sohoso
             // 
-            sohoso.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
-            sohoso.HeaderText = "Số Hồ Sơ KBM";
-            sohoso.Name = "sohoso";
-            sohoso.Width = 108;
+            this.sohoso.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.sohoso.HeaderText = "Số Hồ Sơ KBM";
+            this.sohoso.Name = "sohoso";
+            this.sohoso.Width = 108;
             // 
             // panel1
             // 
-            panel1.AutoScroll = true;
-            panel1.AutoSize = true;
-            panel1.CausesValidation = false;
-            panel1.Controls.Add(dataGridView1);
-            panel1.Controls.Add(label1);
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(988, 542);
-            panel1.TabIndex = 1;
+            this.panel1.AutoScroll = true;
+            this.panel1.AutoSize = true;
+            this.panel1.CausesValidation = false;
+            this.panel1.Controls.Add(this.dataGridView1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(988, 544);
+            this.panel1.TabIndex = 1;
             // 
             // ThongKe
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            AutoScroll = true;
-            BackColor = Color.White;
-            ClientSize = new Size(988, 450);
-            Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.SizableToolWindow;
-            Name = "ThongKe";
-            Text = "ThongKe";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            panel1.ResumeLayout(false);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(988, 450);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Name = "ThongKe";
+            this.Text = "ThongKe";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

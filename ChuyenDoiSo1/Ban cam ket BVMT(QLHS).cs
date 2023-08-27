@@ -39,5 +39,63 @@ namespace ChuyenDoiSo1
             Ban_dang_ky_dat_TCMT_QLHS_ a = new Ban_dang_ky_dat_TCMT_QLHS_();
             a.ShowDialog();
         }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (textBox.Multiline)
+                {
+                    int selectionStart = textBox.SelectionStart;
+                    textBox.Text = textBox.Text.Insert(selectionStart, Environment.NewLine);
+                    textBox.SelectionStart = selectionStart + Environment.NewLine.Length;
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+            int lineHeight = TextRenderer.MeasureText("A", textBox.Font).Height; // Chiều cao của mỗi dòng văn bản
+            int lineCount = textBox.GetLineFromCharIndex(textBox.TextLength) + 1; // Số dòng văn bản
+
+            // Thiết lập chiều cao mới cho TextBox
+            textBox.Height = lineCount * lineHeight + textBox.Padding.Vertical;
+        }
+
+        private void textBox20_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (textBox.Multiline)
+                {
+                    int selectionStart = textBox.SelectionStart;
+                    textBox.Text = textBox.Text.Insert(selectionStart, Environment.NewLine);
+                    textBox.SelectionStart = selectionStart + Environment.NewLine.Length;
+                    e.Handled = true;
+                }
+            }
+        }
+
+        private void textBox15_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (textBox.Multiline)
+                {
+                    int selectionStart = textBox.SelectionStart;
+                    textBox.Text = textBox.Text.Insert(selectionStart, Environment.NewLine);
+                    textBox.SelectionStart = selectionStart + Environment.NewLine.Length;
+                    e.Handled = true;
+                }
+            }
+        }
     }
 }
